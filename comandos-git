@@ -18,4 +18,5 @@ git remote --v  # Mais detalhes do repositorio remoto
 # Criando um repositorio no remoto no github e upload o projeto local para o git
 git push -u origin master  # enviar repsitorio local para o github
 
+git clone <git-directory>  # clone a repository 
 
