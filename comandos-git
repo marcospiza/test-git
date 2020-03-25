@@ -1,0 +1,13 @@
+git log # Mostra o historico dos commits
+git log --oneline # Mostra os historicos de forma resumida
+git log --graph # Mostra um grafico com os branches
+git lot --oneline --graph
+git check out -b branch_name # Cria um novo branch e entra novo branch
+git check out branch_name    # move to the branch_name:w
+                            # Os arquivos tb sao alterados para o status da ramificacao
+
+git status # Mostra as modificacoes no arquivo
+git add . # Adiciona todos os arquivos para commit
+git commit -m "message" # Commit dos arquivos adicionados 
+
+git merge branch_name # Eh preciso esta no branch master.
