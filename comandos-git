@@ -20,3 +20,7 @@ git push -u origin master  # enviar repsitorio local para o github
 
 git clone <git-directory>  # clone a repository 
 
+git fetch # Semelhante ao pull, mas nao faz o merge 
+git checkout origin # Entra no repositorio remoto
+git checkout master # Entra no Master
+git pull  # atualiza o repositorio remote para local (master)
