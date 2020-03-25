@@ -11,3 +11,11 @@ git add . # Adiciona todos os arquivos para commit
 git commit -m "message" # Commit dos arquivos adicionados 
 
 git merge branch_name # Eh preciso esta no branch master.
+git remote  # Verifica se tem um repositorio remoto
+git remote --v  # Mais detalhes do repositorio remoto
+
+
+# Criando um repositorio no remoto no github e upload o projeto local para o git
+git push -u origin master  # enviar repsitorio local para o github
+
+
